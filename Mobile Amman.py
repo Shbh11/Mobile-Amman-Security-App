@@ -45,16 +45,16 @@ def logout():#homepage frameglobal root2;global root1
     
 def action1():#homepage
     global root2
-    takeAction1=tkinter.Label(root2,text="It is recommnded to uninstall the suspected app(s) :",bg="light green",fg="dark blue",font=('arial',14,'underline italic')).place(x=250,y=180)
+    takeAction1=tkinter.Label(root2,text="It is recommended to uninstall the suspected app(s) :",bg="light green",fg="dark blue",font=('arial',14,'underline italic')).place(x=250,y=180)
     
 def action2():#homepage
     global root2
-    takeAction2=tkinter.Label(root2,text="It is recommnded to uninstall the suspected app(s):",bg="light green",fg="dark blue",font=('arial',14,'underline italic')).place(x=250,y=316)
+    takeAction2=tkinter.Label(root2,text="It is recommended to uninstall the suspected app(s):",bg="light green",fg="dark blue",font=('arial',14,'underline italic')).place(x=250,y=316)
 
 
 def action3():#homepage
     global root2
-    takeAction2=tkinter.Label(root2,text="If you find this suspicious , Log in to the DESC portal\nand block your number",bg="light green",fg="dark blue",font=('arial',14,'underline italic')).place(x=250,y=416)
+    takeAction2=tkinter.Label(root2,text="If you find this suspicious , log in to the DESC portal\nand block your number",bg="light green",fg="dark blue",font=('arial',14,'underline italic')).place(x=250,y=416)
 
 def alertlist():#homepage
     global var
